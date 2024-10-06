@@ -1,4 +1,4 @@
-
+import GalleryList from "../GalleryList/GalleryList";
 function App() {
     return (
       <div>
@@ -7,8 +7,8 @@ function App() {
         </header>
 
         <p>The gallery goes here!</p>
-        <img src="images/goat_small.jpg"/>
-        <img src="images/goat_stache.png"/>
+        <GalleryList />
+        
       </div>
     );
 }
